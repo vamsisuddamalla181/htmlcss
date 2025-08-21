@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .home {
+            display: block;
+        }
+
+        .divv {
+            background-color: rgb(20, 14, 14);
+            color: aliceblue;
+            display: inline-block;
+            width: 350px;
+            padding-left: 15px;
+        }
+
+        .p1 {
+            font-weight: 600;
+            font-size: 25px;
+            padding-block: 15px;
+        }
+
+        .p2 {
+            margin-top: 0;
+            color: gray;
+            padding-bottom: 15px;
+        }
+
+        p {
+            margin: 0;
+            font-family: Roboto;
+        }
+
+        .div1 {
+            border: 1px solid rgb(10, 10, 10, 0.15);
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.15);
+            border-radius: 3px;
+        }
+
+        .indiv1 {
+            margin: 0;
+        }
+
+        .indiv2 {
+            margin-left: 10px;
+        }
+
+        .img1 {
+            width: 200px;
+            height: 160px;
+            object-position: top;
+            height: 160px;
+
+        }
+
+        .name1 {
+            font-weight: 700;
+            font-size: 25px;
+        }
+
+        .funds1 {
+            padding-top: 5px;
+            color: gray;
+            margin-left: 4px;
+        }
+
+        .b1 {
+            margin-top: 20px;
+            background-color: rgb(70, 96, 240);
+            color: white;
+            border: 0;
+            padding-inline: 30px;
+            padding-block: 10px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family: Roboto;
+            margin-bottom: 20px;
+        }
+
+        .maindiv {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .google-main{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+        }
+        .google-logo-div{
+            width:fit-content;
+            align-items: center;
+            display: inline-block;
+        }
+        .google-logo{
+            width:150px;
+            height:100px;
+        }
+        .google-search{
+            width:400px;
+            font-size: 20px;
+            border-radius: 30px;
+            border: 1px solid rgb(0, 0, 0,0.25);
+            box-shadow: 5px 5px 10px rgb(3, 3, 3,0.15);
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .bt1{
+            padding: 10px;
+        }
+        .bt2{
+            padding:10px;
+            margin-left: 10px;
+        }
+        .google-button-div{
+            margin-bottom: 30px;
+        }
+        .logo{
+            width: 30px;
+            height:30px;
+            border-radius: 50px;
+        }
+        .logo-div{
+            display:flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divv">
+        <div class="p1">
+            <p>Install YouTube Music</p>
+        </div>
+        <div class="p2">
+            <p>Add YouTube Music to your desktop for quick and easy access</p>
+        </div>
+    </div>
+    <hr>
+    <div class="maindiv">
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1"
+                    src="https://imgs.search.brave.com/IohWqkyIuP4e5nf2kap59SyQ1QLQM-5QgZgCtBTE_-Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMw/OTQ4NzI5OC9waG90/by9odW1hbi1jYXQt/cmVsYXRpb25zaGlw/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1LMlB5d3hBQl9z/aEhRMVgzMEFlaVlX/X3hSMTlsOGFiQjVT/eFlpd2xrYnlVPQ"
+                    alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">Omega</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">2 Mutual Friend</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1" src="./cat1.jpg" alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">Hash</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">3 Mutual Friends</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1"
+                    src="https://imgs.search.brave.com/H_6obqh7XE25jfqgrbTH6rKnHgaZvvw6qq54SZLAKr8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ1/ODg5NDEwNi9waG90/by9jYXQtcG9ydHJh/aXQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXpSVnZZM3Ey/SEJDSXY2U0tVY1pD/cDJZakVtU2dyM1Y2/cHR5bmlZejg3SXc9"
+                    alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">SUZZY</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">4+ Mutual Funds</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="google-main">
+        <div class="google-logo-div">
+            <img class="google-logo" src="https://imgs.search.brave.com/ka0HEWVZg3dscTlaOEIjyjliTkAnRpAUHAqDcbtDD6w/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9ibG9n/LmxvZ29teXdheS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDEvZ29vZ2xl/LWxvZ28tbmV3Lmpw/Zw"
+                alt="google logo">
+        </div>
+        <div class="google-search-div">
+            <input class="google-search" type="text" placeholder="Search any thing here">
+        </div>
+        <div class="google-button-div">
+            <button class="bt1">Search</button>
+            <button class="bt2">I Am Feeling Lucky</button>
+        </div>
+    </div>
+    <hr>
+
+
+    <button class="home"><a class="anc" href="./main.html">Home</a></button>
+</body>
+
+</html>
