@@ -1,3 +1,56 @@
-.html-basics{
-    background-color: rgb(16, 134, 231);
+.buttons {
+  background: linear-gradient(90deg, #4f8cff, #2ecae6);
+  border: none;
+  border-radius: 8px;
+  padding-inline: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(79, 140, 255, 0.15);
+  padding-block: 5px;
+}
+
+.buttons:hover {
+  box-shadow: 0 8px 18px rgba(46, 202, 230, 0.3);
+}
+
+.ancc {
+  display: inline-block;
+  padding: 14px 36px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  text-decoration: none;
+
+}
+.buttons:hover,.ancc{
+    background-color:  rgba(17, 207, 241, 0.2);
+    color: #fff;
+}
+
+.home {
+    background-color: rgb(243, 86, 86);
+    text-decoration: none;
+    margin-top: 50px;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    transition: opacity 2s;
+}
+
+.home:hover {
+    background-color: rgb(83, 243, 190);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.home:active {
+    background-color: rgb(30, 233, 40);
+    opacity: 0.9;
+}
+
+.anc {
+    text-decoration: none;
 }
