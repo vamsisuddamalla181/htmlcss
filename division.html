@@ -38,11 +38,8 @@
 
         .div1 {
             border: 1px solid rgb(10, 10, 10, 0.15);
-            width: fit-content;
-            height: fit-content;
-            display: flex;
-            flex-direction: column;
             box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.15);
+            width: fit-content;
             border-radius: 3px;
         }
 
@@ -58,7 +55,7 @@
             width: 200px;
             height: 160px;
             object-position: top;
-            height: 160px;
+            
 
         }
 
@@ -66,11 +63,19 @@
             font-weight: 700;
             font-size: 25px;
         }
+        .logo{
+            width: 30px;
+            height:30px;
+            border-radius: 50px;
+        }
+        .logo-div{
+            display: grid;
+            grid-template-columns: 35px 1fr;
+        }
 
         .funds1 {
             padding-top: 5px;
             color: gray;
-            margin-left: 4px;
         }
 
         .b1 {
@@ -87,9 +92,10 @@
         }
 
         .maindiv {
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 15px;
+            row-gap: 10px;
         }
         .google-main{
             margin-top: 30px;
@@ -127,14 +133,7 @@
         .google-button-div{
             margin-bottom: 30px;
         }
-        .logo{
-            width: 30px;
-            height:30px;
-            border-radius: 50px;
-        }
-        .logo-div{
-            display:flex;
-        }
+        
     </style>
 </head>
 
@@ -192,6 +191,92 @@
                 <button class="b1">Add Friend</button>
             </div>
         </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1"
+                    src="https://imgs.search.brave.com/IohWqkyIuP4e5nf2kap59SyQ1QLQM-5QgZgCtBTE_-Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMw/OTQ4NzI5OC9waG90/by9odW1hbi1jYXQt/cmVsYXRpb25zaGlw/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1LMlB5d3hBQl9z/aEhRMVgzMEFlaVlX/X3hSMTlsOGFiQjVT/eFlpd2xrYnlVPQ"
+                    alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">Omega</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">2 Mutual Friend</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1" src="./cat1.jpg" alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">Hash</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">3 Mutual Friends</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1"
+                    src="https://imgs.search.brave.com/H_6obqh7XE25jfqgrbTH6rKnHgaZvvw6qq54SZLAKr8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ1/ODg5NDEwNi9waG90/by9jYXQtcG9ydHJh/aXQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXpSVnZZM3Ey/SEJDSXY2U0tVY1pD/cDJZakVtU2dyM1Y2/cHR5bmlZejg3SXc9"
+                    alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">SUZZY</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">4+ Mutual Funds</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1"
+                    src="https://imgs.search.brave.com/IohWqkyIuP4e5nf2kap59SyQ1QLQM-5QgZgCtBTE_-Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMw/OTQ4NzI5OC9waG90/by9odW1hbi1jYXQt/cmVsYXRpb25zaGlw/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1LMlB5d3hBQl9z/aEhRMVgzMEFlaVlX/X3hSMTlsOGFiQjVT/eFlpd2xrYnlVPQ"
+                    alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">Omega</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">2 Mutual Friend</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1" src="./cat1.jpg" alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">Hash</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">3 Mutual Friends</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="indiv1">
+                <img class="img1"
+                    src="https://imgs.search.brave.com/H_6obqh7XE25jfqgrbTH6rKnHgaZvvw6qq54SZLAKr8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ1/ODg5NDEwNi9waG90/by9jYXQtcG9ydHJh/aXQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXpSVnZZM3Ey/SEJDSXY2U0tVY1pD/cDJZakVtU2dyM1Y2/cHR5bmlZejg3SXc9"
+                    alt="cat image">
+            </div>
+            <div class="indiv2">
+                <p class="name1">SUZZY</p>
+                <div class="logo-div">
+                    <img class="logo" src="./cat1.jpg" alt="logo">
+                    <p class="funds1">4+ Mutual Funds</p>
+                </div>
+                <button class="b1">Add Friend</button>
+            </div>
+        </div>
     </div>
     <hr>
     <div class="google-main">
@@ -206,6 +291,7 @@
             <button class="bt1">Search</button>
             <button class="bt2">I Am Feeling Lucky</button>
         </div>
+        
     </div>
     <hr>
 
